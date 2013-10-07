@@ -11,4 +11,6 @@ install:
 before_script:
   - python internal/generate.py
 script:
-  - tox
+  - toxi
+notification :
+  email : false
