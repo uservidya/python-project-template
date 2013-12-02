@@ -12,5 +12,3 @@ before_script:
   - python internal/generate.py
 script:
   - toxi
-notification :
-  email : false
